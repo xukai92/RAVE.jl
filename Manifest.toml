@@ -28,10 +28,10 @@ uuid = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
 version = "0.8.10"
 
 [[BinaryProvider]]
-deps = ["Libdl", "Pkg", "SHA", "Test"]
-git-tree-sha1 = "055eb2690182ebc31087859c3dd8598371d3ef9e"
+deps = ["Libdl", "SHA"]
+git-tree-sha1 = "c7361ce8a2129f20b0e05a89f7070820cfed6648"
 uuid = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
-version = "0.5.3"
+version = "0.5.4"
 
 [[CSTParser]]
 deps = ["LibGit2", "Test", "Tokenize"]
@@ -40,10 +40,10 @@ uuid = "00ebfdb7-1f24-5e51-bd34-a7502290713f"
 version = "0.5.2"
 
 [[CUDAapi]]
-deps = ["Libdl", "Logging", "Test"]
-git-tree-sha1 = "125122309a4387e0d18787cef0f03800fa57702a"
+deps = ["Libdl", "Logging"]
+git-tree-sha1 = "7700585ef08123a4087ad4c0c225d2d33ed44b42"
 uuid = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
-version = "0.6.3"
+version = "1.0.0"
 
 [[CodecZlib]]
 deps = ["BinaryProvider", "Libdl", "Test", "TranscodingStreams"]
@@ -142,6 +142,7 @@ version = "0.20.0"
 [[Knet]]
 deps = ["AutoGrad", "CUDAapi", "FileIO", "JLD2", "Libdl", "LinearAlgebra", "Printf", "Random", "SpecialFunctions", "Statistics", "TimerOutputs"]
 git-tree-sha1 = "2c0f3447ddb8c1f421c17335f6e58527826f614e"
+pinned = true
 repo-rev = "master"
 repo-url = "https://github.com/denizyuret/Knet.jl.git"
 uuid = "1902f260-5fb4-5aff-8c31-6271790ab950"
@@ -168,9 +169,12 @@ uuid = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
 [[MLToolkit]]
 deps = ["ArgParse", "AutoGrad", "CodecZlib", "Distributed", "Distributions", "GSL", "Knet", "LinearAlgebra", "Logging", "Pkg", "PyCall", "PyPlot", "Reexport", "SpecialFunctions", "Statistics", "StatsBase", "StatsFuns", "Test"]
-path = "/afs/inf.ed.ac.uk/user/s16/s1672897/projects/MLToolkit.jl/"
+git-tree-sha1 = "26c46b9fd420b54f39a9cd90ba7dd1d9c92f789f"
+pinned = true
+repo-rev = "master"
+repo-url = "https://github.com/xukai92/MLToolkit.jl"
 uuid = "519e820e-097c-11e9-2274-1b004aeb0b9b"
-version = "0.1.1"
+version = "0.2.0"
 
 [[MacroTools]]
 deps = ["CSTParser", "Compat", "DataStructures", "Test"]
@@ -183,10 +187,10 @@ deps = ["Base64"]
 uuid = "d6f4376e-aef5-505a-96c1-9c027394607a"
 
 [[Missings]]
-deps = ["Dates", "InteractiveUtils", "SparseArrays", "Test"]
-git-tree-sha1 = "d1d2585677f2bd93a97cfeb8faa7a0de0f982042"
+deps = ["SparseArrays", "Test"]
+git-tree-sha1 = "f0719736664b4358aa9ec173077d4285775f8007"
 uuid = "e1d29d7a-bbdc-5cf2-9ac0-f12de2c33e28"
-version = "0.4.0"
+version = "0.4.1"
 
 [[Mmap]]
 uuid = "a63ad114-7e13-5084-954f-fe012c677804"
