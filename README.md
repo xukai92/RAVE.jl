@@ -1,8 +1,10 @@
-# RAVE.jl
+# RAVE: Roulette-based Amortized Variational Expectations
 
-Source code for 
+Source code for the paper
 
-Kai Xu, Akash Srivastava and Charles Sutton. “Variational Russian Roulette for Deep Bayesian Nonparametrics.” International Conference on Machine Learning, 2019.
+Kai Xu, Akash Srivastava and Charles Sutton. *“Variational Russian Roulette for Deep Bayesian Nonparametrics.”* International Conference on Machine Learning, 2019.
+
+## tl;dr
 
 Check `notebooks/bnpvae.ipynb` for the notebook that contains almost everything you would want to reproduce from our paper.
 
