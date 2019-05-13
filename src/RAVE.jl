@@ -1,4 +1,4 @@
-module RRVAE
+module RAVE
 
 using Reexport
 
