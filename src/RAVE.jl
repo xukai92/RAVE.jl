@@ -67,8 +67,4 @@ end
 
 export IBPVAE
 
-# CRP
-include("scrpvae.jl")
-export CRPVAE, SCRPVAE, SCRPEncoder
-
 end # module
